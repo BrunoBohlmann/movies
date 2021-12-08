@@ -1,0 +1,26 @@
+.card {
+  height: 400px;
+  margin: 25px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 300px;
+
+  border-radius: 0px;
+  background: #ffffff;
+  box-shadow: 22px 22px 44px #d9d9d9, -22px -22px 44px #ffffff;
+}
+
+.card-title {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.card-img {
+  height: 85%;
+  overflow: hidden;
+}
+.card-img > img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,13 @@
+.navbar {
+  border: aqua 1px solid;
+  display: flex;
+}
+
+.navbar-items {
+  display: flex;
+}
+
+.navbar-items > li {
+  color: black;
+  margin: 0% 5em;
+}
