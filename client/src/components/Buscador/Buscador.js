@@ -11,15 +11,17 @@ import NavBar from '../NavBar/NavBar';
 import Message from '../Message/Message';
 import Loader from '../Loader/Loader';
 
+// MaterialUI
+
 const Cards = lazy(() => import('../Cards/Cards'));
 
 const Buscador = function () {
   const dispatch = useDispatch();
 
   const moviesResult = useSelector((state) => state.moviesResult);
+  console.log(moviesResult);
   const error = useSelector((state) => state.error);
-
-  useEffect(() => {}, [dispatch]);
+  console.log(error);
 
   return (
     <div className="buscador">

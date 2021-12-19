@@ -4,8 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { Auth0Provider } from '@auth0/auth0-react';
 
-// Archivos y constantes
 import './index.css';
+
+// Archivos y constantes
 import App from './App';
 import store from './store';
 
